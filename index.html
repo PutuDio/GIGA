@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giga — Deep Night, Mountain Vista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Inter+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ── NAVIGATION ── -->
+    <nav>
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">giga<span>.</span></a>
+        <ul class="nav-links">
+          <li><a href="#features-section">Product</a></li>
+          <li><a href="#solutions-section">Solutions</a></li>
+          <li><a href="#features-section">Developers</a></li>
+          <li><a href="pages/pricing.html">Pricing</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+        </ul>
+        <div style="display: flex; gap: 10px; align-items: center">
+          <a href="pages/login.html" class="btn-pill-ghost">Log in</a>
+          <a href="pages/contact.html" class="btn-pill-primary">Talk to us</a>
+        </div>
+        <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── MOBILE DRAWER ── -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
+      <div class="mobile-drawer-panel">
+        <div class="mobile-drawer-header">
+          <a href="index.html" class="nav-logo">giga<span>.</span></a>
+          <button class="mobile-drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
+        </div>
+        <ul class="mobile-drawer-links">
+          <li><a href="#features-section">Product</a></li>
+          <li><a href="#solutions-section">Solutions</a></li>
+          <li><a href="#features-section">Developers</a></li>
+          <li><a href="pages/pricing.html">Pricing</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+        </ul>
+        <div class="mobile-drawer-actions">
+          <a href="pages/login.html" class="btn-pill-ghost" style="width:100%;text-align:center">Log in</a>
+          <a href="pages/contact.html" class="btn-pill-primary" style="width:100%;text-align:center">Talk to us</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── HERO ── -->
+    <div class="hero">
+      <div class="hero-bg">
+        <div class="aurora"></div>
+        <div class="mountain-layer">
+          <svg
+            viewBox="0 0 1440 600"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#0a1520" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#000000" stop-opacity="1" />
+              </linearGradient>
+              <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#050d18" stop-opacity="0.95" />
+                <stop offset="100%" stop-color="#000000" stop-opacity="1" />
+              </linearGradient>
+              <linearGradient id="mtn3" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#020810" stop-opacity="1" />
+                <stop offset="100%" stop-color="#000000" stop-opacity="1" />
+              </linearGradient>
+            </defs>
+            <!-- Far mountains -->
+            <path
+              d="M0,600 L0,350 L80,280 L160,310 L240,220 L320,260 L400,180 L480,230 L560,160 L640,200 L720,140 L800,190 L880,150 L960,180 L1040,120 L1120,160 L1200,130 L1280,170 L1360,150 L1440,180 L1440,600 Z"
+              fill="url(#mtn1)"
+            />
+            <!-- Mid mountains -->
+            <path
+              d="M0,600 L0,420 L100,360 L200,390 L300,320 L400,350 L500,280 L600,320 L700,260 L800,300 L900,250 L1000,290 L1100,240 L1200,280 L1300,260 L1440,300 L1440,600 Z"
+              fill="url(#mtn2)"
+            />
+            <!-- Near mountains / ridge -->
+            <path
+              d="M0,600 L0,500 L150,450 L300,480 L450,420 L600,460 L750,400 L900,440 L1050,410 L1200,450 L1350,430 L1440,460 L1440,600 Z"
+              fill="url(#mtn3)"
+            />
+            <!-- Foreground -->
+            <path
+              d="M0,600 L0,560 L200,540 L400,555 L600,535 L800,550 L1000,538 L1200,548 L1440,535 L1440,600 Z"
+              fill="#000000"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <div class="hero-badge-dot"></div>
+          <span>Now in Public Beta — v2.4.0</span>
+        </div>
+
+        <h1 class="hero-title">
+          Intelligence,<br />
+          <em>vast as the</em><br />
+          night sky.
+        </h1>
+
+        <p class="hero-sub">
+          Giga brings the depth of enterprise AI into a precise, calming
+          interface. Built for teams who think deeply and move deliberately.
+        </p>
+
+        <div class="hero-actions">
+          <a href="pages/register.html" class="btn-pill-primary">Get started free</a>
+          <a href="#showcase-section" class="btn-pill-ghost">Watch demo →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── TICKER ── -->
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <div class="ticker-item">Real-time Intelligence</div>
+        <div class="ticker-item">Agent Canvas</div>
+        <div class="ticker-item">Multi-modal Processing</div>
+        <div class="ticker-item">Secure by Default</div>
+        <div class="ticker-item">Edge Deployment</div>
+        <div class="ticker-item">99.99% Uptime</div>
+        <div class="ticker-item">SOC 2 Type II</div>
+        <div class="ticker-item">Enterprise Ready</div>
+        <!-- duplicate for seamless loop -->
+        <div class="ticker-item">Real-time Intelligence</div>
+        <div class="ticker-item">Agent Canvas</div>
+        <div class="ticker-item">Multi-modal Processing</div>
+        <div class="ticker-item">Secure by Default</div>
+        <div class="ticker-item">Edge Deployment</div>
+        <div class="ticker-item">99.99% Uptime</div>
+        <div class="ticker-item">SOC 2 Type II</div>
+        <div class="ticker-item">Enterprise Ready</div>
+      </div>
+    </div>
+
+    <!-- ── METRICS ── -->
+    <section class="metrics-section">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-item fade-up">
+            <div class="metric-value">12<span>B+</span></div>
+            <div class="metric-label">Tokens processed daily</div>
+          </div>
+          <div class="metric-item fade-up">
+            <div class="metric-value">340<span>ms</span></div>
+            <div class="metric-label">Average response latency</div>
+          </div>
+          <div class="metric-item fade-up">
+            <div class="metric-value">99<span>.99%</span></div>
+            <div class="metric-label">Global availability</div>
+          </div>
+          <div class="metric-item fade-up">
+            <div class="metric-value">5<span>K+</span></div>
+            <div class="metric-label">Teams actively building</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-green"></div>
+
+    <!-- ── FEATURES ── -->
+    <section class="features-section" id="features-section">
+      <div class="container">
+        <div class="features-header">
+          <div class="section-label">Capabilities</div>
+          <h2 class="section-heading">
+            Built to handle<br />complexity at scale.
+          </h2>
+          <p class="section-body">
+            Every feature in Giga is designed with quiet precision — no clutter,
+            no noise. Just the intelligence you need, exactly when you need it.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card fade-up">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <div class="feature-title">Agent Canvas</div>
+            <div class="feature-desc">
+              Orchestrate multi-step AI workflows visually. Connect tasks,
+              conditions, and integrations in an intuitive drag-and-drop
+              environment.
+            </div>
+            <div class="feature-card-accent">→ Explore Agent Canvas</div>
+          </div>
+
+          <div class="feature-card fade-up">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="3" />
+                <path
+                  d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"
+                />
+              </svg>
+            </div>
+            <div class="feature-title">Real-time Inference</div>
+            <div class="feature-desc">
+              Sub-400ms responses on even the most complex prompts. Streaming
+              output keeps your interface alive while Giga processes in
+              parallel.
+            </div>
+            <div class="feature-card-accent">→ View performance docs</div>
+          </div>
+
+          <div class="feature-card fade-up">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+            </div>
+            <div class="feature-title">Zero-trust Security</div>
+            <div class="feature-desc">
+              SOC 2 Type II certified. Every request is end-to-end encrypted,
+              scoped with fine-grained RBAC, and auditable from day one.
+            </div>
+            <div class="feature-card-accent">→ Security whitepaper</div>
+          </div>
+
+          <div class="feature-card fade-up">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+            </div>
+            <div class="feature-title">Observability Suite</div>
+            <div class="feature-desc">
+              Track every inference, measure token costs, monitor latency
+              distributions, and set alerts on quality metrics — all in one
+              dashboard.
+            </div>
+            <div class="feature-card-accent">→ See live demo</div>
+          </div>
+
+          <div class="feature-card fade-up">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                />
+              </svg>
+            </div>
+            <div class="feature-title">Model Gateway</div>
+            <div class="feature-desc">
+              Route prompts intelligently across GPT-4o, Claude, Gemini, and
+              your fine-tuned models. One API, unified billing, smarter routing.
+            </div>
+            <div class="feature-card-accent">→ Model catalog</div>
+          </div>
+
+          <div class="feature-card fade-up">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <div class="feature-title">Team Collaboration</div>
+            <div class="feature-desc">
+              Shared prompt libraries, version-controlled agents, and
+              collaborative notebooks. Your entire team aligned on one
+              intelligent workspace.
+            </div>
+            <div class="feature-card-accent">→ Invite your team</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SHOWCASE ── -->
+    <section class="showcase-section" id="showcase-section">
+      <div class="container">
+        <div class="showcase-inner">
+          <div>
+            <div class="section-label">Product</div>
+            <h2 class="section-heading" style="max-width: 400px">
+              A canvas built for deep work.
+            </h2>
+            <p class="section-body" style="margin-bottom: 32px">
+              The Giga interface is engineered for focus. Every pixel earns its
+              place. Layouts adapt to your workflow, not the other way around.
+            </p>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                margin-bottom: 32px;
+              "
+            >
+              <div style="display: flex; align-items: flex-start; gap: 12px">
+                <div
+                  style="
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid rgba(73, 222, 128, 0.4);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    margin-top: 2px;
+                  "
+                >
+                  <svg
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#49de80"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <div
+                    style="
+                      font-size: 13px;
+                      color: var(--color-ghost);
+                      font-weight: 500;
+                      margin-bottom: 3px;
+                    "
+                  >
+                    Adaptive layouts
+                  </div>
+                  <div style="font-size: 12px; color: var(--color-cosmic-dust)">
+                    Panels and sidebars that respond to your content density and
+                    workflow patterns.
+                  </div>
+                </div>
+              </div>
+              <div style="display: flex; align-items: flex-start; gap: 12px">
+                <div
+                  style="
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid rgba(73, 222, 128, 0.4);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    margin-top: 2px;
+                  "
+                >
+                  <svg
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#49de80"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <div
+                    style="
+                      font-size: 13px;
+                      color: var(--color-ghost);
+                      font-weight: 500;
+                      margin-bottom: 3px;
+                    "
+                  >
+                    Keyboard-first navigation
+                  </div>
+                  <div style="font-size: 12px; color: var(--color-cosmic-dust)">
+                    Every action reachable in two keystrokes. Power users will
+                    feel immediately at home.
+                  </div>
+                </div>
+              </div>
+              <div style="display: flex; align-items: flex-start; gap: 12px">
+                <div
+                  style="
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid rgba(73, 222, 128, 0.4);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    margin-top: 2px;
+                  "
+                >
+                  <svg
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#49de80"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <div
+                    style="
+                      font-size: 13px;
+                      color: var(--color-ghost);
+                      font-weight: 500;
+                      margin-bottom: 3px;
+                    "
+                  >
+                    Dark-first design system
+                  </div>
+                  <div style="font-size: 12px; color: var(--color-cosmic-dust)">
+                    Designed from the ground up for extended low-light sessions,
+                    not retrofitted.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="pages/register.html" class="btn-pill-dark">Explore the interface</a>
+          </div>
+
+          <div class="showcase-visual">
+            <div class="showcase-float top-right">
+              <div class="float-label">Response time</div>
+              <div class="float-value"><span class="up">↑</span> 340ms avg</div>
+            </div>
+            <div class="showcase-screen">
+              <div class="screen-topbar">
+                <div class="screen-dot red"></div>
+                <div class="screen-dot yellow"></div>
+                <div class="screen-dot green"></div>
+                <div class="screen-title-bar"></div>
+              </div>
+              <div class="screen-lines">
+                <div class="screen-line"></div>
+                <div class="screen-line short"></div>
+                <div class="screen-line highlight"></div>
+                <div class="screen-line med"></div>
+                <div class="screen-line short"></div>
+                <div class="screen-line"></div>
+                <div class="screen-line accent"></div>
+              </div>
+              <div class="screen-card-row">
+                <div class="screen-mini-card">
+                  <div class="mini-label">Tokens Used</div>
+                  <div class="mini-value">4.2M</div>
+                  <div class="mini-change">↑ 12% this week</div>
+                </div>
+                <div class="screen-mini-card">
+                  <div class="mini-label">Active Agents</div>
+                  <div class="mini-value">18</div>
+                  <div class="mini-change">↑ 3 new today</div>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-float bottom-left">
+              <div class="float-label">Cost efficiency</div>
+              <div class="float-value">
+                <span class="up">↓</span> 38% vs last month
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PRODUCT CARDS ── -->
+    <section class="product-section" id="solutions-section">
+      <div class="container">
+        <div class="section-label">Solutions</div>
+        <h2 class="section-heading">
+          The full spectrum<br />of AI capability.
+        </h2>
+
+        <div class="product-grid">
+          <div class="product-card violet fade-up">
+            <div class="product-card-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <div>
+              <div class="product-card-title">Agent Studio</div>
+              <div class="product-card-desc">
+                Design, test, and deploy autonomous AI agents. Visual workflow
+                builder with built-in debugging and version control.
+              </div>
+              <a href="pages/register.html" class="product-card-link">Explore Agent Studio →</a>
+            </div>
+          </div>
+
+          <div class="product-card mint fade-up">
+            <div class="product-card-icon">
+              <svg viewBox="0 0 24 24">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+            </div>
+            <div>
+              <div class="product-card-title">Analytics Hub</div>
+              <div class="product-card-desc">
+                Deep-dive into model performance, usage patterns, and ROI across
+                every prompt and every team in your org.
+              </div>
+              <a href="pages/register.html" class="product-card-link">View Analytics →</a>
+            </div>
+          </div>
+
+          <div class="product-card sky fade-up">
+            <div class="product-card-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                />
+              </svg>
+            </div>
+            <div>
+              <div class="product-card-title">Model Gateway</div>
+              <div class="product-card-desc">
+                Intelligent routing across every major model provider. One
+                integration, unified observability, and adaptive cost control.
+              </div>
+              <a href="pages/register.html" class="product-card-link">See Gateway docs →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ── -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-label">From teams using Giga</div>
+        <h2 class="section-heading">Quiet power,<br />loud results.</h2>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span
+              ><span>★</span>
+            </div>
+            <p class="testimonial-quote">
+              "Giga is the only AI platform that feels like it was designed for
+              how engineers actually work. The keyboard shortcuts alone saved us
+              hours every sprint."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AK</div>
+              <div>
+                <div class="author-name">Arjun Kapoor</div>
+                <div class="author-role">Staff Engineer, Lattice</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span
+              ><span>★</span>
+            </div>
+            <p class="testimonial-quote">
+              "We cut our inference costs by 40% in the first month just by
+              using Giga's intelligent model routing. The dashboard makes the
+              ROI immediately visible."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SL</div>
+              <div>
+                <div class="author-name">Sofia Lee</div>
+                <div class="author-role">Head of AI, Runway</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span
+              ><span>★</span>
+            </div>
+            <p class="testimonial-quote">
+              "The security model gave our compliance team confidence from day
+              one. Zero-trust by default isn't marketing copy with Giga — it's
+              genuinely how it's built."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MN</div>
+              <div>
+                <div class="author-name">Marcus Niemi</div>
+                <div class="author-role">CTO, Dune Analytics</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA BANNER ── -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-inner">
+          <h2 class="cta-heading">Join the<br />conversation.</h2>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
+              align-items: flex-start;
+            "
+          >
+            <p
+              style="
+                font-size: 14px;
+                color: var(--color-cosmic-dust);
+                max-width: 320px;
+                line-height: 1.6;
+              "
+            >
+              Talk with our team about how Giga can fit your architecture. No
+              pressure, just depth.
+            </p>
+            <a href="pages/contact.html" class="btn-pill-dark">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <a href="index.html" class="nav-logo">giga<span>.</span></a>
+            <p>
+              Deep night, mountain vista — a cosmic, digital calm. Building the
+              intelligence layer for the next generation of software.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#features-section">Agent Studio</a></li>
+              <li><a href="#features-section">Analytics Hub</a></li>
+              <li><a href="#features-section">Model Gateway</a></li>
+              <li><a href="pages/pricing.html">Pricing</a></li>
+              <li><a href="pages/blog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Developers</h4>
+            <ul>
+              <li><a href="#features-section">Documentation</a></li>
+              <li><a href="#features-section">API Reference</a></li>
+              <li><a href="#features-section">SDKs</a></li>
+              <li><a href="#">Status</a></li>
+              <li><a href="pages/contact.html">Community</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="pages/contact.html">About</a></li>
+              <li><a href="pages/blog.html">Blog</a></li>
+              <li><a href="pages/contact.html">Careers</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Giga Technologies, Inc.</p>
+          <p style="color: var(--color-ember-glow)">v2.4.0 — Deep Night</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scroll-top-btn" aria-label="Scroll to top">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script>
+      // Intersection Observer for fade-up animations
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      document
+        .querySelectorAll(".fade-up")
+        .forEach((el) => observer.observe(el));
+
+      // Hamburger Menu
+      const hBtn = document.getElementById("hamburger-btn");
+      const drawer = document.getElementById("mobile-drawer");
+      const dClose = document.getElementById("drawer-close");
+      const dOverlay = document.getElementById("drawer-overlay");
+      function openDrawer() { drawer.classList.add("open"); document.body.style.overflow = "hidden"; }
+      function closeDrawer() { drawer.classList.remove("open"); document.body.style.overflow = ""; }
+      hBtn.addEventListener("click", openDrawer);
+      dClose.addEventListener("click", closeDrawer);
+      dOverlay.addEventListener("click", closeDrawer);
+
+      // Close drawer when clicking a link
+      document.querySelectorAll(".mobile-drawer-links a").forEach(link => {
+        link.addEventListener("click", closeDrawer);
+      });
+
+      // Scroll to Top
+      const stb = document.getElementById("scroll-top-btn");
+      window.addEventListener("scroll", () => {
+        stb.classList.toggle("visible", window.scrollY > 400);
+      });
+      stb.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
