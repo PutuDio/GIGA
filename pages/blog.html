@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giga — Blog</title>
+    <meta name="description" content="Insights, tutorials, and deep dives on AI, machine learning, and building with Giga." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Inter+Display:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+  </head>
+  <body>
+    <!-- ── NAVIGATION ── -->
+    <nav>
+      <div class="nav-inner">
+        <a href="../index.html" class="nav-logo">giga<span>.</span></a>
+        <ul class="nav-links">
+          <li><a href="../index.html">Product</a></li>
+          <li><a href="../index.html">Solutions</a></li>
+          <li><a href="../index.html">Developers</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="blog.html" style="color:var(--color-ghost)">Blog</a></li>
+        </ul>
+        <div style="display: flex; gap: 10px; align-items: center">
+          <a href="login.html" class="btn-pill-ghost">Log in</a>
+          <a href="contact.html" class="btn-pill-primary">Talk to us</a>
+        </div>
+        <button class="hamburger" id="hamburger-btn" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
+      <div class="mobile-drawer-panel">
+        <div class="mobile-drawer-header">
+          <a href="index.html" class="nav-logo">giga<span>.</span></a>
+          <button class="mobile-drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
+        </div>
+        <ul class="mobile-drawer-links">
+          <li><a href="../index.html">Product</a></li>
+          <li><a href="../index.html">Solutions</a></li>
+          <li><a href="../index.html">Developers</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+        <div class="mobile-drawer-actions">
+          <a href="login.html" class="btn-pill-ghost" style="width:100%;text-align:center">Log in</a>
+          <a href="contact.html" class="btn-pill-primary" style="width:100%;text-align:center">Talk to us</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── HERO ── -->
+    <div class="page-hero">
+      <div class="page-hero-bg"></div>
+      <div class="container">
+        <div class="section-label">Blog</div>
+        <h1 class="section-heading">Insights from<br />the deep.</h1>
+        <p class="section-body">Engineering deep dives, product updates, and thoughts on the future of AI infrastructure.</p>
+      </div>
+    </div>
+
+    <!-- ── BLOG GRID ── -->
+    <section style="padding-top:0">
+      <div class="container">
+        <div class="blog-grid">
+          <!-- Article 1 -->
+          <a href="#" class="blog-card fade-up">
+            <div class="blog-card-thumb gradient-1">
+              <div class="blog-card-thumb-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-tag">Engineering</div>
+              <div class="blog-card-title">How We Built Agent Canvas: A Deep Dive into Visual AI Orchestration</div>
+              <div class="blog-card-excerpt">Behind the scenes of our drag-and-drop workflow engine that powers thousands of production AI pipelines.</div>
+              <div class="blog-card-meta">
+                <span>May 12, 2025</span>
+                <span>8 min read</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Article 2 -->
+          <a href="#" class="blog-card fade-up">
+            <div class="blog-card-thumb gradient-2">
+              <div class="blog-card-thumb-icon">
+                <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-tag">Product</div>
+              <div class="blog-card-title">Introducing Real-time Observability: See Every Token in Flight</div>
+              <div class="blog-card-excerpt">Our new observability suite gives you live dashboards for latency, cost, and quality metrics across all your AI workloads.</div>
+              <div class="blog-card-meta">
+                <span>May 8, 2025</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Article 3 -->
+          <a href="#" class="blog-card fade-up">
+            <div class="blog-card-thumb gradient-3">
+              <div class="blog-card-thumb-icon">
+                <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-tag">Security</div>
+              <div class="blog-card-title">Zero-Trust AI: Why We Encrypt Everything, Everywhere, Always</div>
+              <div class="blog-card-excerpt">Our security-first architecture ensures your data never leaves your trust boundary. Here's how we built it.</div>
+              <div class="blog-card-meta">
+                <span>Apr 29, 2025</span>
+                <span>10 min read</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Article 4 -->
+          <a href="#" class="blog-card fade-up">
+            <div class="blog-card-thumb gradient-4">
+              <div class="blog-card-thumb-icon">
+                <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-tag">Tutorial</div>
+              <div class="blog-card-title">Model Gateway 101: Route to the Best Model Every Time</div>
+              <div class="blog-card-excerpt">Learn how to set up intelligent model routing that optimizes for cost, speed, and quality automatically.</div>
+              <div class="blog-card-meta">
+                <span>Apr 22, 2025</span>
+                <span>6 min read</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Article 5 -->
+          <a href="#" class="blog-card fade-up">
+            <div class="blog-card-thumb gradient-5">
+              <div class="blog-card-thumb-icon">
+                <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-tag">Culture</div>
+              <div class="blog-card-title">Why We Design for Dark Mode First</div>
+              <div class="blog-card-excerpt">Our design philosophy explained — why we believe the best interfaces are the ones that disappear into your workflow.</div>
+              <div class="blog-card-meta">
+                <span>Apr 15, 2025</span>
+                <span>4 min read</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Article 6 -->
+          <a href="#" class="blog-card fade-up">
+            <div class="blog-card-thumb gradient-6">
+              <div class="blog-card-thumb-icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-tag">Benchmark</div>
+              <div class="blog-card-title">340ms: How We Achieved Sub-400ms Inference at Scale</div>
+              <div class="blog-card-excerpt">A technical deep-dive into our inference stack, from edge caching to GPU orchestration and speculative decoding.</div>
+              <div class="blog-card-meta">
+                <span>Apr 8, 2025</span>
+                <span>12 min read</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA ── -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-inner">
+          <h2 class="cta-heading">Stay in<br />the loop.</h2>
+          <div style="display:flex;flex-direction:column;gap:12px;align-items:flex-start">
+            <p style="font-size:14px;color:var(--color-cosmic-dust);max-width:320px;line-height:1.6">Subscribe to our newsletter for the latest product updates, engineering insights, and AI industry analysis.</p>
+            <a href="register.html" class="btn-pill-dark">Subscribe →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <a href="../index.html" class="nav-logo">giga<span>.</span></a>
+            <p>Deep night, mountain vista — a cosmic, digital calm. Building the intelligence layer for the next generation of software.</p>
+          </div>
+          <div class="footer-col"><h4>Product</h4><ul><li><a href="../index.html">Agent Studio</a></li><li><a href="../index.html">Analytics Hub</a></li><li><a href="../index.html">Model Gateway</a></li><li><a href="pricing.html">Pricing</a></li></ul></div>
+          <div class="footer-col"><h4>Developers</h4><ul><li><a href="#">Documentation</a></li><li><a href="#">API Reference</a></li><li><a href="#">SDKs</a></li><li><a href="#">Status</a></li></ul></div>
+          <div class="footer-col"><h4>Company</h4><ul><li><a href="contact.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Security</a></li></ul></div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Giga Technologies, Inc.</p>
+          <p style="color: var(--color-ember-glow)">v2.4.0 — Deep Night</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top" id="scroll-top-btn" aria-label="Scroll to top">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script>
+      const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("visible"); }); }, { threshold: 0.1 });
+      document.querySelectorAll(".fade-up").forEach(el => observer.observe(el));
+
+      const hBtn = document.getElementById("hamburger-btn");
+      const drawer = document.getElementById("mobile-drawer");
+      const dClose = document.getElementById("drawer-close");
+      const dOverlay = document.getElementById("drawer-overlay");
+      function openDrawer() { drawer.classList.add("open"); document.body.style.overflow="hidden"; }
+      function closeDrawer() { drawer.classList.remove("open"); document.body.style.overflow=""; }
+      hBtn.addEventListener("click", openDrawer);
+      dClose.addEventListener("click", closeDrawer);
+      dOverlay.addEventListener("click", closeDrawer);
+
+      const stb = document.getElementById("scroll-top-btn");
+      window.addEventListener("scroll", () => { stb.classList.toggle("visible", window.scrollY > 400); });
+      stb.addEventListener("click", () => { window.scrollTo({ top: 0, behavior: "smooth" }); });
+    </script>
+  </body>
+</html>
