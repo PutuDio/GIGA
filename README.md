@@ -193,7 +193,7 @@ Semua kartu menggunakan kelas `.fade-up` yang diaktifkan oleh **Intersection Obs
 
 ```bash
 # Clone repository
-git clone https://github.com/username/giga-landing.git
+git clone https://github.com/PutuDio/GIGA.git
 
 # Masuk ke direktori
 cd GIGA
