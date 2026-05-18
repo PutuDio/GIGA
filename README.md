@@ -189,22 +189,6 @@ Semua kartu menggunakan kelas `.fade-up` yang diaktifkan oleh **Intersection Obs
 
 ---
 
-## 📈 Nilai Portfolio
-
-**Tingkat kesulitan:** ⭐⭐⭐⭐ Menengah-Tinggi
-
-**Nilai untuk recruiter:** 🔴🔴🔴🔴🔴 5/5 — Sangat Tinggi
-
-Kenapa bernilai tinggi:
-
-- Menunjukkan kemampuan **membangun dan mengikuti design system** — bukan asal styling
-- **CSS-only complex visual** (mountain landscape) membuktikan penguasaan CSS tingkat lanjut
-- Struktur landing page yang strategis menunjukkan pemahaman **UI/UX dan conversion funnel**
-- Kategori **AI enterprise tools** adalah segmen yang paling banyak dicari di 2025
-- Tidak ada framework — membuktikan pemahaman **fundamental web development**
-
----
-
 ## 🚀 Cara Menjalankan
 
 ```bash
@@ -212,7 +196,7 @@ Kenapa bernilai tinggi:
 git clone https://github.com/username/giga-landing.git
 
 # Masuk ke direktori
-cd giga-landing
+cd GIGA
 
 # Buka langsung di browser
 open index.html
@@ -285,7 +269,7 @@ giga-landing/
 
 ## 📄 Lisensi
 
-Project ini dibuat untuk tujuan portofolio. Bebas digunakan sebagai referensi pembelajaran.
+Project ini dibuat bebas digunakan sebagai referensi pembelajaran.
 
 ---
 
