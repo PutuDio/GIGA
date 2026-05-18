@@ -261,9 +261,9 @@ giga-landing/
 
 **Putu Dio** — Frontend Developer
 
-- 🌐 Portfolio: [putudio.dev](#)
-- 💼 LinkedIn: [linkedin.com/in/putudio](#)
-- 🐙 GitHub: [github.com/putudio](#)
+- 🌐 Portfolio: [Coming Soon](#)
+- 💼 LinkedIn: [linkedin.com/in/putudiokenneta](#https://www.linkedin.com/in/putu-dio-kenneta-09818440b/)
+- 🐙 GitHub: [github.com/PutuDio](#https://github.com/PutuDio)
 
 ---
 
