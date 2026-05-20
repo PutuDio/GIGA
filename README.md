@@ -259,11 +259,11 @@ giga-landing/
 
 ## 👤 Developer
 
-**Putu Dio** — Frontend Developer
+**Putu Dio** — Web Developer
 
 - 🌐 Portfolio: [Coming Soon](#)
-- 💼 LinkedIn: [[linkedin.com/in/putudiokenneta](https://www.linkedin.com/in/putu-dio-kenneta-09818440b/)](#)
-- 🐙 GitHub: [[github.com/PutuDio](https://github.com/PutuDio)](#)
+- 💼 LinkedIn: [[linkedin.com/in/putudiokenneta](https://www.linkedin.com/in/putu-dio-kenneta-09818440b/)]
+- 🐙 GitHub: [[github.com/PutuDio](https://github.com/PutuDio)]
 
 ---
 
