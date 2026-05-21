@@ -189,30 +189,10 @@ Semua kartu menggunakan kelas `.fade-up` yang diaktifkan oleh **Intersection Obs
 
 ---
 
-## 🚀 Cara Menjalankan
-
-```bash
-# Clone repository
-git clone https://github.com/PutuDio/GIGA.git
-
-# Masuk ke direktori
-cd GIGA
-
-# Buka langsung di browser
-open index.html
-
-# Atau gunakan Live Server di VS Code
-# Klik kanan index.html → "Open with Live Server"
-```
-
-Tidak ada `npm install`. Tidak ada build process. Langsung jalan.
-
----
-
 ## 📁 Struktur File
 
 ```
-giga-landing/
+giga/
 ├── index.html          # Seluruh halaman (HTML + CSS inline + JS)
 ├── css                 # Design token — warna, tipografi, spacing, radius
 │    └── login.css
