@@ -27,8 +27,6 @@ This project was built purely using **HTML, CSS, and Vanilla JavaScript** — ze
 **Putu Dio** — Web Developer
 
 - 🌐 Portfolio: [Coming Soon](#)
-- 💼 LinkedIn: [[linkedin.com/in/putudiokenneta](https://www.linkedin.com/in/putu-dio-kenneta-09818440b/)]
-- 🐙 GitHub: [[github.com/PutuDio](https://github.com/PutuDio)]
 
 ---
 
